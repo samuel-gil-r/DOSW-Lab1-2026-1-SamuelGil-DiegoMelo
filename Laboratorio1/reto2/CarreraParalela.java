@@ -36,4 +36,12 @@ public class CarreraParalela {
         System.out.println("Mínimo: " + resultado.minimo);
         System.out.println("Cantidad: " + resultado.cantidad);
     }
+
+
+    // Tu parte (Diego):
+    public Integer obtenerNumeroMasGrande(List<Integer> numeros) {
+        return numeros.stream()
+                .max((n1, n2) -> n1.compareTo(n2))
+                .orElse(0);
+    }
 }
