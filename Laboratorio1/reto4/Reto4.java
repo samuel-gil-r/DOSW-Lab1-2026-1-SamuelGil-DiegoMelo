@@ -1,0 +1,20 @@
+package Laboratorio1.reto4;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Reto4 {
+
+    // Misión Estudiante A (Diego): HashMap (Rápido, sin protección de hilos)
+    // Regla: Ignorar duplicados (conservar el primero)
+    public Map<String, Integer> procesarHashMap(List<Map.Entry<String, Integer>> pares) {
+        Map<String, Integer> mapa = new HashMap<>();
+
+        for (Map.Entry<String, Integer> par : pares) {
+            // putIfAbsent inserta solo si la clave NO existe (cumple la regla de conservar el primero)
+            mapa.putIfAbsent(par.getKey(), par.getValue());
+        }
+        return mapa;
+    }
+}
