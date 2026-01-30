@@ -1,43 +1,34 @@
-package Laboratorio1.reto1;
+package reto1;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// Asegúrate de tener la clase Estudiante en el paquete o importada
 public class Reto1 {
-
-    public static class Estudiante {
-        String nombre;
-        String carrera;
-        int semestre;
-        int edad;
-        String correo;
-
-        public Estudiante(String nombre, String carrera, int semestre, int edad, String correo) {
-            this.nombre = nombre;
-            this.carrera = carrera;
-            this.semestre = semestre;
-            this.edad = edad;
-            this.correo = correo;
-        }
-    }
-
     public static void main(String[] args) {
-        
+        // Asumiendo clase Estudiante(nombre, edad, correo, semestre)
         List<Estudiante> estudiantes = Arrays.asList(
-            new Estudiante("Juan Diego Melo", "Ingeniería de Sistemas", 7, 21, "juan.melo@mail.escuelaing.edu.co"),
-            new Estudiante("Samuel Gil", "Ingeniería de Sistemas", 7, 22, "samuel.gil@mail.escuelaing.edu.co")
+                new Estudiante("Samuel Gil", 21, "samuel@mail.com", "6"),
+                new Estudiante("Diego Melo", 22, "diego@mail.com", "5")
         );
 
         String mensaje = estudiantes.stream()
-            .map(e -> e.nombre + ", estudiante de " + e.carrera + " de " + e.semestre + "° semestre de " + e.edad + " años")
-            .collect(Collectors.joining(" y ", "¡Hola, bienvenidos! Nosotros somos la pareja conformada por ", "."));
+                .map(e -> String.format("%s, estudiante de %s.° semestre de %d años", e.getNombre(), e.getSemestre(), e.getEdad()))
+                .collect(Collectors.joining(" y ", "¡Hola, bienvenidos! Nosotros somos la pareja conformada por ", "."));
 
         String correos = estudiantes.stream()
-            .map(e -> e.correo)
-            .collect(Collectors.joining(" y ", "Nuestros correos institucionales son ", "."));
+                .map(Estudiante::getCorreo)
+                .collect(Collectors.joining(" y ", "Nuestros correos institucionales son ", "."));
 
         System.out.println(mensaje + " " + correos);
     }
 }
-
+class Estudiante {
+    String nombre, correo, semestre; int edad;
+    public Estudiante(String n, int e, String c, String s) { nombre=n; edad=e; correo=c; semestre=s; }
+    public String getNombre() { return nombre; }
+    public int getEdad() { return edad; }
+    public String getCorreo() { return correo; }
+    public String getSemestre() { return semestre; }
+}
