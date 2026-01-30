@@ -6,8 +6,7 @@ import java.util.Map;
 
 public class Reto4 {
 
-    // Misión Estudiante A (Diego): HashMap (Rápido, sin protección de hilos)
-    // Regla: Ignorar duplicados (conservar el primero)
+    
     public Map<String, Integer> procesarHashMap(List<Map.Entry<String, Integer>> pares) {
         Map<String, Integer> mapa = new HashMap<>();
 
