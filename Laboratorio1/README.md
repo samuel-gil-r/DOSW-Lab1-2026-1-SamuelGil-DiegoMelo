@@ -25,3 +25,15 @@ Captura de imagen
 ## Preguntas teóricas
 Pregunta 1:
 Respuesta...
+
+### Reto 3: El Eco Misterioso
+**Evidencia:**
+(Poner captura aquí)
+**Descripción:**
+Implementamos un eco usando StringBuilder para repetir y StringBuffer para invertir el texto.
+
+### Reto 4: El Tesoro de las Llaves
+**Evidencia:**
+(Poner captura aquí)
+**Descripción:**
+Unificamos un HashMap y un Hashtable, manejando colisiones y convirtiendo las claves a mayúsculas ordenadas.
