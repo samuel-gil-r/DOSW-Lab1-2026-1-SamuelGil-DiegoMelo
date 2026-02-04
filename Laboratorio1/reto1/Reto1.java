@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-// Asegúrate de tener la clase Estudiante en el paquete o importada
+
 public class Reto1 {
     public static void main(String[] args) {
         // Asumiendo clase Estudiante(nombre, edad, correo, semestre)
@@ -32,3 +32,4 @@ class Estudiante {
     public String getCorreo() { return correo; }
     public String getSemestre() { return semestre; }
 }
+
