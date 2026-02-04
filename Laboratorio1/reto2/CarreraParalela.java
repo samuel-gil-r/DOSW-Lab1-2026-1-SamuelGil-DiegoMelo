@@ -4,16 +4,12 @@ import java.util.List;
 import java.util.IntSummaryStatistics;
 
 public class CarreraParalela {
+
     public static void procesarLista(List<Integer> numeros) {
         IntSummaryStatistics stats = numeros.stream()
                 .mapToInt(Integer::intValue)
                 .summaryStatistics();
 
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a5ea68d780ccc48b668d38c257583c9908d3d9d7
         int max = stats.getMax();
         int min = stats.getMin();
         long count = stats.getCount();
@@ -22,14 +18,9 @@ public class CarreraParalela {
         System.out.println("Minimo: " + min);
         System.out.println("Cantidad: " + count);
 
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a5ea68d780ccc48b668d38c257583c9908d3d9d7
-        System.out.println("¿Max es múltiplo de 2?: " + ((max % 2 == 0) ? "Si" : "No"));
-        System.out.println("¿Max es divisor de 2?: " + ((max != 0 && 2 % max == 0) ? "Si" : "No"));
-        System.out.println("¿Cantidad es par?: " + ((count % 2 == 0) ? "Si" : "No"));
-        System.out.println("¿Cantidad es impar?: " + ((count % 2 != 0) ? "Si" : "No"));
+        System.out.println("¿Max es múltiplo de 2?: " + (max % 2 == 0 ? "Si" : "No"));
+        System.out.println("¿Max es divisor de 2?: " + (max != 0 && 2 % max == 0 ? "Si" : "No"));
+        System.out.println("¿Cantidad es par?: " + (count % 2 == 0 ? "Si" : "No"));
+        System.out.println("¿Cantidad es impar?: " + (count % 2 != 0 ? "Si" : "No"));
     }
 }
