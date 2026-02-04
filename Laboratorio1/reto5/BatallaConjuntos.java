@@ -28,7 +28,7 @@ public class BatallaConjuntos {
     }
 
     public static void imprimir(Set<Integer> conjunto) {
-        conjunto.forEach(n -> System.out.println("Número en arena: " + n)); // lambda
+        conjunto.forEach(n -> System.out.println("Número en arena: " + n));
     }
 
     public static void main(String[] args) {
