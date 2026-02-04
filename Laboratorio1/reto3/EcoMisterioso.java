@@ -5,7 +5,6 @@ import java.util.stream.IntStream;
 
 public class EcoMisterioso {
 
-
     public static String repetirTresBuilder(String mensaje) {
         return IntStream.range(0, 3)
                 .mapToObj(i -> mensaje)
@@ -21,20 +20,15 @@ public class EcoMisterioso {
                         StringBuilder::append)
                 .toString();
     }
-
-
-
     public static String invertirBuffer(String mensaje) {
         return new StringBuffer(mensaje).reverse().toString();
     }
-
 
     public static String ecoEspecial(String mensaje) {
         Function<String, String> repetir = EcoMisterioso::repetirTresBuilder;
         String repetido = repetir.apply(mensaje);
         return invertirBuffer(repetido);
     }
-
     public static void main(String[] args) {
         System.out.println(repetirTresBuilder("hola"));
         System.out.println(invertirBuffer("hola"));

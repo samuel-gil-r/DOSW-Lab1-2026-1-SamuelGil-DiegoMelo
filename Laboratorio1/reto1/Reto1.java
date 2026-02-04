@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-// Asegúrate de tener la clase Estudiante en el paquete o importada
+
 public class Reto1 {
     public static void main(String[] args) {
-        // Asumiendo clase Estudiante(nombre, edad, correo, semestre)
+
         List<Estudiante> estudiantes = Arrays.asList(
                 new Estudiante("Samuel Gil", 21, "samuel@mail.com", "6"),
                 new Estudiante("Diego Melo", 22, "diego@mail.com", "5")

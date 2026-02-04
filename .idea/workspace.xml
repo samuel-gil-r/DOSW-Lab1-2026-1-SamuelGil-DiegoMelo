@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90c50074-84e5-43b0-9110-30eadc658121" name="Changes" comment="">
+    <list default="true" id="74437769-0445-4c9e-bfd1-9af973a0d998" name="Changes" comment="Soluciona Reto 1: bienvenida usando Streams">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/Reto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto1/Reto1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto2/CarreraParalela.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto2/CarreraParalela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/EcoMisterioso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto3/EcoMisterioso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/Reto3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto3/Reto3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/Reto3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto4/Reto4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto4/Reto4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto5/BatallaConjuntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto5/BatallaConjuntos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,72 +20,174 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/reto6_GilSamuel_2026-1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;juandiegomelo21-commits&quot;
+    &quot;assignee&quot;: &quot;samuel-gil-r&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/samuel-gil-r/DOSW-Lab1-2026-1-SamuelGil-DiegoMelo.git&quot;,
-    &quot;accountId&quot;: &quot;b93e49d6-cec3-4e02-8539-a79898da10ca&quot;
+    &quot;accountId&quot;: &quot;7bf8fa1d-8175-4bab-a73b-7dd4c8f19682&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="38z4amPIrbVDnQa17qpZT5yKDsY" />
+  <component name="ProjectId" id="38wgHbkXMMyt5l6U8s7nYsZ2qpA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Application.BatallaConjuntos.executor": "Run",
+    "Application.CarreraParalela.executor": "Run",
+    "Application.EcoMisterioso.executor": "Run",
+    "Application.MaquinaDecisiones.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/reto6__manual__2__MeloDiego__2026-1",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/timon/DOSW-Lab1-2026-1-SamuelGil-DiegoMelo",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.MaquinaDecisiones">
+    <configuration name="BatallaConjuntos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reto5.BatallaConjuntos" />
+      <module name="DOSW-Lab1-2026-1-SamuelGil-DiegoMelo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarreraParalela" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reto2.CarreraParalela" />
+      <module name="DOSW-Lab1-2026-1-SamuelGil-DiegoMelo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcoMisterioso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reto3.EcoMisterioso" />
+      <module name="DOSW-Lab1-2026-1-SamuelGil-DiegoMelo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaquinaDecisiones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reto6.MaquinaDecisiones" />
+      <module name="DOSW-Lab1-2026-1-SamuelGil-DiegoMelo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaquinaDecisiones" />
+        <item itemvalue="Application.BatallaConjuntos" />
+        <item itemvalue="Application.EcoMisterioso" />
+        <item itemvalue="Application.CarreraParalela" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+        <option value="bundled-jdk-9823dce3aa75-84258761d1cc-intellij.indexing.shared.core-IU-243.28141.18" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.28141.18" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90c50074-84e5-43b0-9110-30eadc658121" name="Changes" comment="" />
-      <created>1769789136893</created>
+      <changelist id="74437769-0445-4c9e-bfd1-9af973a0d998" name="Changes" comment="Soluciona Reto 1: bienvenida usando Streams" />
+      <created>1769715961735</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1769789136893</updated>
-      <workItem from="1769789140660" duration="119000" />
+      <updated>1769715961735</updated>
+      <workItem from="1769715963216" duration="1985000" />
+      <workItem from="1769718076469" duration="17549000" />
+      <workItem from="1769754562061" duration="614000" />
+      <workItem from="1769755228057" duration="1045000" />
+      <workItem from="1769804517456" duration="5000" />
+      <workItem from="1770171791169" duration="956000" />
+      <workItem from="1770173289741" duration="65000" />
+      <workItem from="1770173377482" duration="2929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/reto_2_GilSamuel_MeloDiego_2026" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Soluciona Reto 1: bienvenida usando Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Soluciona Reto 1: bienvenida usando Streams" />
   </component>
 </project>
